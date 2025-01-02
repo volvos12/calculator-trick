@@ -1,14 +1,15 @@
 body {
-    background-color: rgb(0 0 0);
     height: 100dvh;
     width: 100%;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    touch-action: manipulation;
+    background-color: #000;
+    position: fixed;
 }
 
 .top-part {
@@ -27,11 +28,10 @@ body {
     background-position: center;
     background-size: contain;
     position: relative;
-    top: 0%;
-    left: 0%;
-    height: 20px;
-    width: 20px;
-    margin-top: 10px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
     margin-left: 10px;
 }
 
@@ -49,9 +49,10 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     margin: 5px;
+    margin-bottom: 5%;
     max-width: 95%;
     justify-items: center;
     align-items: center;
@@ -59,8 +60,8 @@ body {
 
 .AC {
     background-image: url("../images/clear-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -68,8 +69,8 @@ body {
 
 .schimbare-semn {
     background-image: url("../images/schimbare-semn-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -77,8 +78,8 @@ body {
 
 .PROCENTE {
     background-image: url("../images/procente-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -86,8 +87,8 @@ body {
 
 .IMPARTIRE {
     background-image: url("../images/impartire-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -95,8 +96,8 @@ body {
 
 .button-7 {
     background-image: url("../images/7-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -104,8 +105,8 @@ body {
 
 .button-8 {
     background-image: url("../images/8-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -113,8 +114,8 @@ body {
 
 .button-9 {
     background-image: url("../images/9-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -122,8 +123,8 @@ body {
 
 .INMULTIRE {
     background-image: url("../images/inmultire-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -131,8 +132,8 @@ body {
 
 .button-4 {
     background-image: url("../images/4-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -140,8 +141,8 @@ body {
 
 .button-5 {
     background-image: url("../images/5-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -149,8 +150,8 @@ body {
 
 .button-6 {
     background-image: url("../images/6-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -158,8 +159,8 @@ body {
 
 .MINUS {
     background-image: url("../images/minus-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -167,8 +168,8 @@ body {
 
 .button-1 {
     background-image: url("../images/1-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -176,8 +177,8 @@ body {
 
 .button-2 {
     background-image: url("../images/2-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -185,8 +186,8 @@ body {
 
 .button-3 {
     background-image: url("../images/3-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -194,8 +195,8 @@ body {
 
 .PLUS {
     background-image: url("../images/plus-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -203,8 +204,8 @@ body {
 
 .CALCULATOR {
     background-image: url("../images/calculator-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -212,8 +213,8 @@ body {
 
 .button-0 {
     background-image: url("../images/0-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -221,8 +222,8 @@ body {
 
 .VIRGULA {
     background-image: url("../images/virgula-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -230,42 +231,45 @@ body {
 
 .backspace {
     background-image: url("../images/backspace-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     position: absolute;
-    right: 0%;
+    right: 0;
     z-index: -1;
     background-color: transparent;
 }
 
 .AC_Backspace {
     position: relative;
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
 }
 
 .EGAL {
     background-image: url("../images/egal-button.png");
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .button {
-    width: 3.875rem;
-    height: 3.875rem;
+    width: 5.3rem;
+    height: 5.3rem;
+    border-radius: 50%;
     background-color: black;
-    border: 0px !important;
-}
+    border: 0 !important;
+   box-shadow:inset 1px 1px #000;
 
-.button:active {
+}
+.button:active{
     filter: brightness(155%)
 }
+
 
 .button:hover {
     cursor: pointer;
@@ -292,9 +296,9 @@ body {
 }
 
 .number-wrapper {
-    bottom: 0%;
-    right: 0%;
-    height: 60%;
+    bottom: 0;
+    right: 0;
+    height: 70%;
     width: 100%;
     padding-right: 20px;
     display: flex;
@@ -313,12 +317,13 @@ body {
 }
 
 .number-wrapper .output {
-    font-weight: 500;
-    padding-right: 20px;
+    font-weight: 300;
+    padding-right: 40px;
     color: white;
     font-size: 3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: block;
+    overflow-x: scroll;
 }
 
 .number-wrapper .first_input {
@@ -369,13 +374,13 @@ body {
 }
 .equal-signs{
     position: relative;
-    height: 3.875rem;
-    width: 3.875rem;
+    height: 5.3rem;
+    width: 5.3rem;
 }
 .copie{
     position: absolute;
-    top: 0% ;
-    left: 0%;
+    top: 0 ;
+    left: 0;
     z-index: -1;
 }
 .number-wrapper .input,
@@ -386,9 +391,7 @@ body {
     font-size: 3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: block;
-
-    /* New properties for horizontal scrolling */
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevents text wrapping */
-    scroll-behavior: smooth; /* Smooth scrolling effect */
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
 }
